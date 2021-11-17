@@ -1,0 +1,10 @@
+﻿[Ver]
+33
+
+[WksPlotMenuMRUList]
+Version = 2
+1 = {"33248","","Scatter"}
+2 = {"33288","","Double-Y"}
+3 = {"33335","","Y Error "}
+4 = {"33255","","Column"}
+5 = {"33336","","XY Error"}
