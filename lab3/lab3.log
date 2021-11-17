@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.13)  18 NOV 2021 02:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.13)  18 NOV 2021 04:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,248 +564,115 @@ File: equivalent_circuit.png Graphic file (type bmp)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 156.
+(hyperref)                removing `subscript' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 156.
+(hyperref)                removing `subscript' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
-
-
-LaTeX Warning: Reference `eq::magnetic field' on page 5 undefined on input line 157.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
+(hyperref)                removing `math shift' on input line 179.
 
 [5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 190.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 190.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 190.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 190.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 190.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 190.
-
-
-Overfull \hbox (11.41226pt too wide) in paragraph at lines 195--202
- [][] 
+Overfull \hbox (72.04689pt too wide) detected at line 209
+[]
  []
-
-
-LaTeX Warning: Reference `table::theoretical value' on page 6 undefined on input line 206.
-
-
-LaTeX Warning: Reference `eq::Bx' on page 6 undefined on input line 208.
-
-
-LaTeX Warning: Reference `eq::magnetic field' on page 6 undefined on input line 212.
-
-
-LaTeX Warning: Reference `fig::KHUS' on page 6 undefined on input line 226.
-
-
-Overfull \hbox (21.30214pt too wide) in paragraph at lines 231--255
- [][] 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
-
-
-LaTeX Warning: Reference `eq::Bx' on page 6 undefined on input line 265.
-
-
-LaTeX Warning: Reference `table::theoretical value' on page 6 undefined on input line 265.
-
-
-LaTeX Warning: Reference `eq::magnetic field' on page 6 undefined on input line 270.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
- []
-
-
-LaTeX Warning: Reference `fig::linear fit' on page 7 undefined on input line 274.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
 
 
-LaTeX Warning: Reference `eq::magnetic field' on page 7 undefined on input line 304.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 243.
 
 
-Overfull \hbox (19.85333pt too wide) in paragraph at lines 311--343
- [][] 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
  []
 
 [7]
 
-LaTeX Warning: Reference `eq::Bx' on page 8 undefined on input line 383.
+LaTeX Warning: Reference `fig::KHUS' on page 8 undefined on input line 339.
 
 
-LaTeX Warning: Reference `table::theoretical value' on page 8 undefined on input line 383.
+LaTeX Warning: Reference `fig::linear fit' on page 8 undefined on input line 341.
+
+
+LaTeX Warning: Reference `fig::theo_and_meas' on page 8 undefined on input line 354.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
 
 [8]
-
-LaTeX Warning: Reference `fig::theo_and_meas' on page 9 undefined on input line 385.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Overfull \hbox (72.04689pt too wide) detected at line 421
-[]
- []
-
-[9]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 455.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-
- []
-
-[10]
-
-LaTeX Warning: Reference `fig::KHUS' on page 11 undefined on input line 551.
-
-
-LaTeX Warning: Reference `fig::linear fit' on page 11 undefined on input line 553.
-
-
-LaTeX Warning: Reference `fig::theo_and_meas' on page 11 undefined on input line 566.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
-[12] [13] [14] (./lab3.aux)
+[9] [10] [11] (./lab3.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `lab3.out' has not changed.
-(rerunfilecheck)             Checksum: 8A21AC851E14C480C95DBCF56DDEFE01;6295.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `lab3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lab3.out':
+(rerunfilecheck)             Before: 41C48E1700576BB1BFC855831BE33550;5318
+(rerunfilecheck)             After:  AB3C7797436F20E2270DEBBF6A96AE99;4205.
  ) 
 Here is how much of TeX's memory you used:
- 13600 strings out of 476919
- 210148 string characters out of 5825424
- 605517 words of memory out of 5000000
- 33339 multiletter control sequences out of 15000+600000
+ 13596 strings out of 476919
+ 210078 string characters out of 5825424
+ 586530 words of memory out of 5000000
+ 33335 multiletter control sequences out of 15000+600000
  410230 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 85i,19n,88p,590b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,17n,88p,590b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on lab3.pdf (15 pages).
+Output written on lab3.pdf (12 pages).

@@ -139,12 +139,12 @@ The precisions of the devices are shown in Table \ref{table::Precision}.
 	\centering
 	\begin{tabular}{cc}
 		\hline
-		Instrument  & Uncertainties                         \\
+		Instrument  & Uncertainties          \\
 		\hline
-		DC Voltage  & $\pm (0.5\%+0.01)\,$V                            \\
+		DC Voltage  & $\pm (0.5\%+0.01)\,$V  \\
 		DC Current  & $\pm (1.5\% + 0.1\,$mA \\
-		Distance    & $\pm 0.1\%\,$cm                            \\
-		Solar power & $\pm 10\,$W/cm$^2$                            \\
+		Distance    & $\pm 0.1\%\,$cm        \\
+		Solar power & $\pm 10\,$W/cm$^2$     \\
 		\hline
 	\end{tabular}
 	\caption{Information of measurement instruments.}
@@ -153,237 +153,25 @@ The precisions of the devices are shown in Table \ref{table::Precision}.
 
 \subsection{Measurement Procedure}
 
-\subsubsection{Relation Between Sensitivity $ K_H $ and Working Voltage $ U_S $}
-In this part, we explored the relation between sensitivity $K_{H}$ and working voltage $U_{S}$ by applying Eq.(\ref{eq::magnetic field}) and measuring the corresponding
-quantities.
+In this exercise, the characteristics of four configurations of the solar cell are studied. For each configuration, the $I-V$ $P-V$, $P-R$ relations are studied and for each single configurations, the information about fill factor and energy conversion efficiency are also explored.
 \begin{enumerate}
-	\item Place the integrated Hall probe at the center of the solenoid. Set the working voltage at 5 V and measure the output voltage $ U_0 (I_M = 0) $ and
-	      $ U (I_M = 250 mA) $. Take the theoretical value of $ B(x = 0) $ from Table 1 and calculate the sensitivity of the probe $ K_H $ by using Eq. (2).
-	\item Measure $ K_H $ for different values of $ U_S $ (from $ 2.8 V $ to $ 10 V $). Calculate $ K_H/U_S $ and plot the curve $ K_H/U_S\ vs.\ U_S $.
+    \item Turn on both the light and the fan and then wait until the light reaches its working intensity.
+    \item Design a measuring circuit with the photovoltaic device, multimeters set in an appropriate range, and the resistance. Connect the elements into a circuit using the provided wiring board.
+    \item Adjust the distance between the light source and the photovoltaic device until the $V_\text{oc}$ and $I_\text{sc}$ of the two devices are about the same. Measure the solar power by the provided solar power meter.
+    \item Change the distance between the light source and the photovoltaic device and measure the $I-V$ characteristics curves and the values of $V_\text{oc}$ and $I_\text{sc}$ in a single-device configuration. Measure the solar power at this distance.
+    \item Plot
 \end{enumerate}
-\subsubsection{Relation Between Output Voltage $ U $ and Magnetic Field $ B $}
-In this part, we explored the relation between the output voltage of the Hall probe and the magnetic field in which it is positioned by adjusting the current in the
-solenoid.
-\begin{enumerate}
-	\item With $ B=0, U_S=5 V, $ connect the $ 2.4 \sim 2.6 V $ output terminal of the DC voltage divider and the negative port of the voltmeter. Adjust the voltage
-	      until $ U_0 = 0 $.
-	\item Place the integrated Hall probe at the center of the solenoid and measure the output voltage $ U $ for different values of $ I_M $ ranging from 0 to
-	      $ 500 mA $, with intervals of $ 50 mA $.
-	\item Explain the relation between $ B(x = 0) $ and the Hall voltage $ U_H $. Pay attention to the fact that the output voltage U is the amplified signal from
-	      $ U_H $. The theoretical value of $ B(x = 0) $ can be found from Table 1.
-	\item Plot the curve $ U vs. B $ and find the sensitivity $ K_H $ by a linear fit (use a computer). Compare the value you obtained with the theoretical value in
-	      given in the Apparatus section.
-\end{enumerate}
-\subsubsection{Magnetic Field Distribution Inside the Solenoid}
-In this part, we explore the magnetic field distribution inside a solenoid by adjusting the position of the Probe Hall and measuring the magnetic field at different
-positions.
-\begin{enumerate}
-	\item Measure the magnetic field distribution along the axis of the solenoid for $ I_M = 250 mA $, record the output voltage U and the corresponding position $ x $.
-	      Then find $ B = B(x) $. (Use the value of $ K_H $ found in the previous part of the experiment).
-	\item Use a computer to plot the theoretical and the experimental curve showing the magnetic field distribution inside the solenoid. Use dots for the data measured
-	      and a solid line for the theoretical curve. The origin of the plot should be at the center of the solenoid.
-\end{enumerate}
+
+\subsection{Safety Notice}
+
+\begin{itemize}
+	\item The temperature of the light source is very high, do not touch the cover.
+	\item The power supply voltage of the light source is 220 V, beware of electric shock.
+\end{itemize}
 
 
 \section{Experimental Results}
 
-\subsection{Experiment 1 - Relationship Between Sensitivity $K_H$ and Working Voltage $U_S$}
-The measurement results of $U_0$ and $U$ when $U_\text{S}$ = 5.00 V are shown in Table \ref{table::initial}.
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ccc}
-		\hline
-		$U_\text{S} \ [\text{V}] \pm 0.5\%\ [\text{V}]$ & $U_0 (I_\text{M} = 0) \ [\text{V}] \pm (0.05\% + 6\times10^{-3} )\ [\text{V}]$ & $U (I_\text{M} = 250\,\text{mA}) \ [\text{V}] \pm (0.05\% + 6\times10^{-3}) \ [\text{V}]$ \\
-		\hline
-		5.00 $\pm$ 0.03                                 & 2.504 $\pm$ 0.007                                                              & 2.621 $\pm$ 0.007                                                                         \\
-		\hline
-	\end{tabular}
-	\caption{Data for $U_0$ and $U$ with $U_S$ = 5.00 V.}
-	\label{table::initial}
-\end{table}
-
-According to the data in Table \ref{table::theoretical value}, we can obtain that when $I_\text{M} = 100 \ \text{mA},$
-$B(x=0,\,I_\text{M}=100\ [\text{mA}])=1.4366\times10^{-3} \ \text{T}.$
-Eq. (\ref{eq::Bx}) implies that $B$ is proportional to current $I_\text{M}$, and therefore,
-\begin{equation*}
-	B(x=0,I_\text{M}=250\ [\text{mA}]) = \frac{250}{100} \times 1.4366\times10^{-3} = 3.59\times 10^{-3} \pm 0.07 \times 10^{-3}\ \text{T}.
-\end{equation*}
-According to Eq. (\ref{eq::magnetic field}), the sensitivity of the probe $K_\text{H}$ when $U_\text{S}$ = 5.00 V is then calculated as
-\begin{equation*}
-	K_\text{H} = \frac{U-U_0}{B(x=0,I_\text{M}=250\,[\text{mA}])} = \frac{2.621-2.504}{3.59\times 10^{-3}} = 33 \pm 3 \,[\text{V}/\text{T}].
-\end{equation*}
-The measurement results of $U_0$ and $U$ for different $U_\text{S}$ are shown in Table \ref{table::e1}. We calculate $K_\text{H}/U_\text{S}$ for each set of data to
-explore their relation. That is, for each set of data, we calculate
-\begin{equation*}
-	\frac{K_\text{H}}{U_\text{S}} = \frac{U-U_0}{BU_\text{S}}.
-\end{equation*}
-Taking the first set of data as an example,
-\begin{equation*}
-	\frac{K_\text{H}}{U_\text{S}} = \frac{U-U_0}{BU_\text{S}} = \frac{1.4656-1.4004}{3.59\times 10^{-3}\times2.80} =  6.5 \pm 0.2 \,[\text{T}^{-1}].
-\end{equation*}
-The measurement results and the results of calculation of $K_\text{H}/U_\text{S}$ for each set of data are presented together in Table \ref{table::e1}.
-A plot of the results $K_\text{H}/U_\text{S}$ vs. $U_\text{S}$ using Origin is shown in Fig.(\ref{fig::KHUS}).
-The points in the plot indicates that the ratio of $K_{H}$ to $U_{s}$ decreases as $U_{s}$ increases.
-
-\begin{table}[htbp]
-	\centering
-	\begin{tabular}{c|cccc}
-		\hline
-		   & $U_\text{S} \,\,[\text{V}] \pm 0.5\%\,\,[\text{V}]$ & $U_0 \,\,[\text{V}] \pm (0.05\% + 6\times10^{-3/-4}\,\,[\text{V}]$ & $U \,\,[\text{V}] \pm(0.05\% + 6\times10^{-3/-4}\,\,[\text{V}]$ & $K_\text{H}/U_\text{S} \,\,[\text{T}^{-1}]$ \\
-		\hline
-		1  & 2.80 $\pm$ 0.014                                    & 1.4004 $\pm$ 0.0013                                                & 1.4656 $\pm$ 0.0014                                             & 6.5 $\pm$ 0.2                               \\
-		2  & 3.20 $\pm$ 0.016                                    & 1.6002 $\pm$ 0.0014                                                & 1.6760 $\pm$ 0.0015                                             & 6.6 $\pm$ 0.2                               \\
-		3  & 3.60 $\pm$ 0.018                                    & 1.8022 $\pm$ 0.0015                                                & 1.8905 $\pm$ 0.0016                                             & 6.8 $\pm$ 0.2                               \\
-		4  & 4.00 $\pm$ 0.020                                    & 2.002 $\pm$ 0.007                                                  & 2.097 $\pm$ 0.007                                               & 6.6 $\pm$ 0.2                               \\
-		5  & 4.40 $\pm$ 0.022                                    & 2.201 $\pm$ 0.008                                                  & 2.308 $\pm$ 0.008                                               & 6.8 $\pm$ 0.5                               \\
-		6  & 4.80 $\pm$ 0.024                                    & 2.405 $\pm$ 0.008                                                  & 2.518 $\pm$ 0.008                                               & 6.6 $\pm$ 0.6                               \\
-		7  & 5.20 $\pm$ 0.026                                    & 2.602 $\pm$ 0.008                                                  & 2.723 $\pm$ 0.008                                               & 6.5 $\pm$ 0.6                               \\
-		8  & 5.60 $\pm$ 0.028                                    & 2.800 $\pm$ 0.008                                                  & 2.933 $\pm$ 0.008                                               & 6.6 $\pm$ 0.5                               \\
-		9  & 6.00 $\pm$ 0.030                                    & 2.999 $\pm$ 0.008                                                  & 3.136 $\pm$ 0.008                                               & 6.4 $\pm$ 0.5                               \\
-		10 & 6.40 $\pm$ 0.032                                    & 3.198 $\pm$ 0.008                                                  & 3.343 $\pm$ 0.008                                               & 6.3 $\pm$ 0.5                               \\
-		11 & 6.80 $\pm$ 0.034                                    & 3.394 $\pm$ 0.008                                                  & 3.545 $\pm$ 0.008                                               & 6.2 $\pm$ 0.5                               \\
-		12 & 7.20 $\pm$ 0.036                                    & 3.592 $\pm$ 0.008                                                  & 3.748 $\pm$ 0.008                                               & 6.0 $\pm$ 0.4                               \\
-		13 & 7.60 $\pm$ 0.038                                    & 3.788 $\pm$ 0.008                                                  & 3.952 $\pm$ 0.008                                               & 6.0 $\pm$ 0.4                               \\
-		14 & 8.00 $\pm$ 0.040                                    & 3.988 $\pm$ 0.008                                                  & 4.152 $\pm$ 0.008                                               & 5.7 $\pm$ 0.4                               \\
-		15 & 8.40 $\pm$ 0.042                                    & 4.183 $\pm$ 0.008                                                  & 4.351 $\pm$ 0.009                                               & 5.6 $\pm$ 0.4                               \\
-		16 & 8.80 $\pm$ 0.044                                    & 4.380 $\pm$ 0.009                                                  & 4.552 $\pm$ 0.009                                               & 5.4 $\pm$ 0.3                               \\
-		17 & 9.20 $\pm$ 0.046                                    & 4.573 $\pm$ 0.009                                                  & 4.751 $\pm$ 0.009                                               & 5.4 $\pm$ 0.3                               \\
-		18 & 10.00 $\pm$ 0.050                                   & 4.963 $\pm$ 0.009                                                  & 5.143 $\pm$ 0.009                                               & 5.0 $\pm$ 0.3                               \\
-		\hline
-	\end{tabular}
-	\caption{Data for $U_0$, $U$ and $K_\text{H}/U_\text{S}$ for different $U_\text{S}$.}
-	\label{table::e1}
-\end{table}
-
-
-
-\subsection{Relation Between Output Voltage $U$ and Magnetic Field $B$}\label{sec::e2}
-
-\textit{In this experiment, we will not take the magnetic field B into consideration when it comes to uncertainty, as requested.}
-
-According to Eq.(\ref{eq::Bx}), $B$ is proportional to current $I_\text{M}$. We can obtain from Table \ref{table::theoretical value} that when $I_\text{M} = 100 \,\,\text{mA},$ $B(x=0,I_\text{M}=100\,[\text{mA}])=1.4366\times10^{-3}\,\,\text{T}.$ Therefore,
-the theoretical value of the magnetic field is $$B(x=0) = \frac{I_\text{M}}{100}\times 1.4366\times10^{-3}.$$
-Take the last set of data as an example,
-$$B(x=0,I_\text{M}=0.50\,[\text{A}]) = \frac{1.4366\times10^{-3}}{100\times 10^{-3}}\times I_\text{M} = 7.2\times 10^{-3}\,[\text{T}].$$
-
-It is noticed that the measured $U_{\text{out}}$ is the amplified output of $U_{H}$ and we supposed that $U = k \cdot U_{H}$. Then, theoretically, according to Eq. (\ref{eq::magnetic field}), we can derive that
-$$B(x=0) = \frac{U-U_0}{K_\text{H}} = \frac{U_{\text{out}}}{K_\text{H}} = k\cdot\frac{U_\text{H}}{K_\text{H}},$$
-where $k$ is a constant. Therefore, $B(x=0)$ is supposed to be proportional to the Hall voltage $U_\text{H}$.\\
-
-The experimental results are shown in Table \ref{table::IMU}. By applying linear fit to the $I_\text{M}$ vs. $U$ plot (Fig.(\ref{fig::linear fit})), the slope of the curve
-is then the measured sensitivity $K_{H}$, which is $33.6$ V/T, with uncertainty $0.7$ V/T. The measurement result of the sensitivity is then
-$K_H = 33.6 \pm 0.7\,$V/T.
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{clll}
-		\hline
-		   & $I_\text{M}\,\,[\text{A}] \pm 2\%\ [\text{A}]$ & \begin{tabular}[c]{@{}l@{}}$U_{\text{out}}\ [\text{mV}]\pm (0.05\%+$\\ $6\times10^{-3})\ [\text{mV}]$ \end{tabular} & $B(x=0)\ [\text{T}]$ \\
-		\hline
-		1  & 0 $\pm$ 0                                      & 0.83 $\pm$ 0.007           & 0                    \\
-		2  & 0.05 $\pm$ 0.001                               & 30.08 $\pm$ 0.03           & 7.2$\times 10^{-4}$  \\
-		3  & 0.10 $\pm$ 0.002                               & 51.32 $\pm$ 0.04           & 1.4$\times 10^{-3}$  \\
-		4  & 0.15 $\pm$ 0.003                               & 73.38 $\pm$ 0.05           & 2.2$\times 10^{-3}$  \\
-		5  & 0.20 $\pm$ 0.004                               & 97.71 $\pm$ 0.06           & 2.9$\times 10^{-3}$  \\
-		6  & 0.25 $\pm$ 0.005                               & 121.64 $\pm$ 0.07          & 3.6$\times 10^{-3}$  \\
-		7  & 0.30 $\pm$ 0.006                               & 143.67 $\pm$ 0.08          & 4.3$\times 10^{-3}$  \\
-		8  & 0.35 $\pm$ 0.007                               & 166.63 $\pm$ 0.09          & 5.0$\times 10^{-3}$  \\
-		9  & 0.40 $\pm$ 0.008                               & 187.79 $\pm$ 0.10          & 5.7$\times 10^{-3}$  \\
-		10 & 0.45 $\pm$ 0.009                               & 210.10 $\pm$ 0.12          & 6.5$\times 10^{-3}$  \\
-		11 & 0.50 $\pm$ 0.010                               & 231.1 $\pm$ 0.13           & 7.2$\times 10^{-3}$  \\
-		\hline
-	\end{tabular}
-	\caption{Measurement data for the $I_\text{M}$ vs. $U$ relation and the calculated data for $B(x=0)$.}
-	\label{table::IMU}
-\end{table}
-
-
-\subsection{Magnetic Field Distribution Inside the Solenoid}
-
-The measurement result of output voltage $U$ and the corresponding position $x$ are shown in Table \ref{TableUx}. According to Eq.(\ref{eq::magnetic field}) and the
-measured value of $K_{H}$ in section \ref{sec::e2}, $B(x)$ can be obtained from $B(x) = \frac{U}{K_\text{H}} = \frac{U}{33.6}$
-Take the first set of data as an example, $$B(x) = \frac{U}{K_\text{H}} = \frac{12.20\times 10^{-3}}{33.6} = (0.363 \pm 0.008) \times 10^{-3} \,\,[\text{T}].$$
-The $B(x)$ are calculated for each set of data and the results are shown in Table \ref{TableBx}.
-
-\begin{table}[htbp]
-	\centering
-	\begin{tabular}{ccc||ccc}
-		\hline
-		   & $x$[cm]$\pm$0.05[cm] & $U$[mV]$\pm$(0.05$\%$+$6 \times 10^{-3})[\text{mV}]$ &    & $x$[cm]$\pm$0.05[cm] & $U$[mV]$\pm$(0.05$\%$+$6 \times 10^{-3})[\text{mV}]$ \\
-		\hline
-		1  & 0.00                 & 12.20 $\pm$ 0.012                                    & 27 & 16.00                & 118.14 $\pm$ 0.07                                    \\
-		2  & 0.50                 & 15.27 $\pm$ 0.014                                    & 28 & 17.00                & 118.12 $\pm$ 0.07                                    \\
-		3  & 1.00                 & 20.64 $\pm$ 0.016                                    & 29 & 18.00                & 118.04 $\pm$ 0.07                                    \\
-		4  & 1.50                 & 27.95 $\pm$ 0.02                                     & 30 & 19.00                & 117.93 $\pm$ 0.07                                    \\
-		5  & 2.00                 & 39.47 $\pm$ 0.03                                     & 31 & 20.00                & 117.87 $\pm$ 0.07                                    \\
-		6  & 2.50                 & 54.53 $\pm$ 0.04                                     & 32 & 21.00                & 117.48 $\pm$ 0.07                                    \\
-		7  & 3.00                 & 71.20 $\pm$ 0.05                                     & 33 & 22.00                & 117.27 $\pm$ 0.07                                    \\
-		8  & 3.50                 & 86.03 $\pm$ 0.05                                     & 34 & 23.00                & 116.52 $\pm$ 0.07                                    \\
-		9  & 4.00                 & 96.45 $\pm$ 0.06                                     & 35 & 24.00                & 115.35 $\pm$ 0.07                                    \\
-		10 & 4.50                 & 103.35 $\pm$ 0.06                                    & 36 & 25.00                & 113.25 $\pm$ 0.07                                    \\
-		11 & 5.00                 & 107.76 $\pm$ 0.06                                    & 37 & 26.00                & 109.47 $\pm$ 0.06                                    \\
-		12 & 5.50                 & 110.62 $\pm$ 0.07                                    & 38 & 27.00                & 101.05 $\pm$ 0.06                                    \\
-		13 & 6.00                 & 112.67 $\pm$ 0.07                                    & 39 & 27.20                & 98.40 $\pm$ 0.06                                     \\
-		14 & 6.50                 & 113.90 $\pm$ 0.07                                    & 40 & 27.60                & 91.27 $\pm$ 0.06                                     \\
-		15 & 7.00                 & 114.90 $\pm$ 0.07                                    & 41 & 27.80                & 87.47 $\pm$ 0.05                                     \\
-		16 & 7.50                 & 115.56 $\pm$ 0.07                                    & 42 & 28.00                & 82.41 $\pm$ 0.05                                     \\
-		17 & 8.00                 & 116.18 $\pm$ 0.07                                    & 43 & 28.20                & 75.95 $\pm$ 0.05                                     \\
-		18 & 8.50                 & 116.71 $\pm$ 0.07                                    & 44 & 28.40                & 69.49 $\pm$ 0.05                                     \\
-		19 & 9.00                 & 117.20 $\pm$ 0.07                                    & 45 & 28.60                & 62.78 $\pm$ 0.04                                     \\
-		20 & 9.50                 & 117.28 $\pm$ 0.07                                    & 46 & 28.80                & 56.25 $\pm$ 0.04                                     \\
-		21 & 10.00                & 117.67 $\pm$ 0.07                                    & 47 & 29.00                & 49.60 $\pm$ 0.04                                     \\
-		22 & 11.00                & 117.87 $\pm$ 0.07                                    & 48 & 29.20                & 43.65 $\pm$ 0.03                                     \\
-		23 & 12.00                & 118.02 $\pm$ 0.07                                    & 49 & 29.40                & 37.75 $\pm$ 0.03                                     \\
-		24 & 13.00                & 118.12 $\pm$ 0.07                                    & 50 & 29.60                & 32.68 $\pm$ 0.03                                     \\
-		25 & 14.00                & 118.01 $\pm$ 0.07                                    & 51 & 29.80                & 28.52 $\pm$ 0.03                                     \\
-		26 & 15.00                & 118.19 $\pm$ 0.07                                    & 52 & 30.00                & 25.57 $\pm$ 0.019                                    \\
-		\hline
-	\end{tabular}
-	\caption{Data for the $U$ vs. $x$ relation}\label{TableUx}
-\end{table}
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ccc||ccc}
-		\hline
-		   & $x\,\,[\text{cm}] \pm 0.05\,\,[\text{cm}]$ & $B(x)\,\,[10^{-3}\,\,\text{T}]$ &    & $x\,\,[\text{cm}] \pm 0.05\,\,[\text{cm}]$ & $B(x)\,\,[10^{-3}\,\,\text{T}]$ \\
-		\hline
-		1  & 0.00                                       & 0.363 $\pm$ 0.008               & 27 & 16.00                                      & 3.47 $\pm$ 0.08                 \\
-		2  & 0.50                                       & 0.449 $\pm$ 0.010               & 28 & 17.00                                      & 3.47 $\pm$ 0.08                 \\
-		3  & 1.00                                       & 0.607 $\pm$ 0.013               & 29 & 18.00                                      & 3.47 $\pm$ 0.08                 \\
-		4  & 1.50                                       & 0.822 $\pm$ 0.017               & 30 & 19.00                                      & 3.47 $\pm$ 0.08                 \\
-		5  & 2.00                                       & 1.16 $\pm$ 0.03                 & 31 & 20.00                                      & 3.47 $\pm$ 0.08                 \\
-		6  & 2.50                                       & 1.60 $\pm$ 0.04                 & 32 & 21.00                                      & 3.46 $\pm$ 0.08                 \\
-		7  & 3.00                                       & 2.09 $\pm$ 0.05                 & 33 & 22.00                                      & 3.45 $\pm$ 0.08                 \\
-		8  & 3.50                                       & 2.53 $\pm$ 0.06                 & 34 & 23.00                                      & 3.43 $\pm$ 0.07                 \\
-		9  & 4.00                                       & 2.83 $\pm$ 0.06                 & 35 & 24.00                                      & 3.39 $\pm$ 0.07                 \\
-		10 & 4.50                                       & 3.04 $\pm$ 0.07                 & 36 & 25.00                                      & 3.33 $\pm$ 0.07                 \\
-		11 & 5.00                                       & 3.17 $\pm$ 0.07                 & 37 & 26.00                                      & 3.22 $\pm$ 0.07                 \\
-		12 & 5.50                                       & 3.25 $\pm$ 0.07                 & 38 & 27.00                                      & 2.97 $\pm$ 0.07                 \\
-		13 & 6.00                                       & 3.31 $\pm$ 0.07                 & 39 & 27.20                                      & 2.89 $\pm$ 0.06                 \\
-		14 & 6.50                                       & 3.35 $\pm$ 0.07                 & 40 & 27.60                                      & 2.68 $\pm$ 0.06                 \\
-		15 & 7.00                                       & 3.38 $\pm$ 0.07                 & 41 & 27.80                                      & 2.57 $\pm$ 0.06                 \\
-		16 & 7.50                                       & 3.40 $\pm$ 0.07                 & 42 & 28.00                                      & 2.42 $\pm$ 0.05                 \\
-		17 & 8.00                                       & 3.42 $\pm$ 0.07                 & 43 & 28.20                                      & 2.23 $\pm$ 0.05                 \\
-		18 & 8.50                                       & 3.43 $\pm$ 0.07                 & 44 & 28.40                                      & 2.04 $\pm$ 0.05                 \\
-		19 & 9.00                                       & 3.45 $\pm$ 0.07                 & 45 & 28.60                                      & 1.85 $\pm$ 0.04                 \\
-		20 & 9.50                                       & 3.45 $\pm$ 0.08                 & 46 & 28.80                                      & 1.65 $\pm$ 0.04                 \\
-		21 & 10.00                                      & 3.46 $\pm$ 0.08                 & 47 & 29.00                                      & 1.46 $\pm$ 0.03                 \\
-		22 & 11.00                                      & 3.47 $\pm$ 0.08                 & 48 & 29.20                                      & 1.28 $\pm$ 0.03                 \\
-		23 & 12.00                                      & 3.47 $\pm$ 0.08                 & 49 & 29.40                                      & 1.11 $\pm$ 0.03                 \\
-		24 & 13.00                                      & 3.47 $\pm$ 0.08                 & 50 & 29.60                                      & 0.96 $\pm$ 0.02                 \\
-		25 & 14.00                                      & 3.47 $\pm$ 0.08                 & 51 & 29.80                                      & 0.839 $\pm$ 0.018               \\
-		26 & 15.00                                      & 3.48 $\pm$ 0.08                 & 52 & 30.00                                      & 0.752 $\pm$0.016                \\
-		\hline
-	\end{tabular}
-	\caption{Data for the $B(x)$ vs. $x$ relation.}\label{TableBx}
-\end{table}
-
-The theoretical curve of the magnetic field distribution inside the solenoid can be obtained from Eq.\eqref{eq::Bx} and the data in Table \ref{table::theoretical value}, by multiplying the data in the table by $\frac{250}{100} = 2.5$, since we have set the current as 250 mA instead of 100 mA.
-
-Then we plot the theoretical curve together with the measured value of the magnetic field distribution in Fig.(\ref{fig::theo_and_meas}).
-The origin of the plot is set at the center of the solenoid, thus $15$ cm are subtracted from the $x$ in the measurement data.
 
 
 \section{Uncertainty Analysis}
