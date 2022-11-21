@@ -1,0 +1,35 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Basic Concepts}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Theoretical Basis}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Polarization of Light$^{[3]}$}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Generation of Elliptically and Circularly Polarized Light. Half-wave and Quarter-wave Plates}{4}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Apparatus and Measurement Procedure}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Apparatus}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Measurement Procedure}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Apparatus Adjustment}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Demonstration of Malus' Law}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Linearly Polarized Light and the Half-wave Plate}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Circularly and Elliptically Polarized Light and the 1/4-wave Plate}{6}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Safety Notice}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Experimental Results}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Demonstration of Malus' Law}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Linearly Polarized Light and the Half-wave Plate}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Circularly and Elliptically Polarized Light and the 1/4-wave Plate}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Rotation Angle: 0$^\circ $}{9}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Rotation Angle: 20$^\circ $}{10}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Rotation Angle: 45$^\circ $}{12}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Uncertainty Analysis}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Uncertainty for Data in Demonstration of Malus' Law}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Uncertainty for Linearly Polarized Light and the Half-wave Plate}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Uncertainty for Circularly and Elliptically Polarized Light and the 1/4-wave Plate}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Conclusion and Discussion}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conclusion}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Demonstration of Malus' Law}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Linearly Polarized Light and the Half-wave Plate}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Circularly and Elliptically Polarized Light and the 1/4-wave Plate}{16}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Discussion}{16}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Problems}{16}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Potential errors}{16}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Imporvements}{16}{subsubsection.5.5.3}%
+\contentsline {section}{\numberline {6}Reference}{17}{section.6}%

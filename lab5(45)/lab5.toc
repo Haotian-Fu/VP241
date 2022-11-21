@@ -1,0 +1,43 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Basic Concepts}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Transient Processes in $RC$, $RL$, $RLC$ Series Circuits}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}$RC$ Series Circuit}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}RL Series Circuit}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}RLC Series Circuit}{4}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}RC, RL Steady-State Circuits}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}RLC Resonant Circuit}{5}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}RLC Series Circuit}{5}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Resonance}{6}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Quality Factor in Resonant Circuits}{6}{subsubsection.1.4.3}%
+\contentsline {section}{\numberline {2}Apparatus and Measurement Procedure}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Apparatus}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Measurement Procedure}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}RC, RL Series Circuit}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}RLC Series Circuit}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}RLC Resonant Circuit}{8}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Cations}{8}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Safety Notice}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Experimental Results}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}$T_{1/2}$ Measurement in $RC$ Series Circuit}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}$T_{1/2}$ Measurement in $RL$ Series Circuit}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}$T_{1/2}$ Measurement in $RLC$ Series Circuit}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Measurements for $RLC$ Resonance Circuit}{14}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Relationship of $I/I_m$ vs. $f/f_0$}{14}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Phase Shift}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Calculation of Resonate Frequency $f_0$ and Quality Factor Q}{18}{subsubsection.3.4.3}%
+\contentsline {section}{\numberline {4}Uncertainty Analysis}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Uncertainty of Data for RC Circuit}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Uncertainty of Data for RL Circuit}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Uncertainty of Data for $RLC$ Circuit}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Uncertainty of Data for $RLC$ Resonant Circuit}{22}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Uncertainty of $I/I_m$ vs. $f/f_m$ Relationship Data}{22}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Uncertainty of Phase Shift Analysis}{23}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Uncertainty for Resonant Frequency $f_0$ and Quality Factor Q}{24}{subsubsection.4.4.3}%
+\contentsline {section}{\numberline {5}Conclusion and Discussion}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conclusion}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Discussion}{26}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}System Errors}{26}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Random Errors}{26}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Improvements}{26}{subsubsection.5.2.3}%
+\contentsline {section}{\numberline {6}Reference}{27}{section.6}%
